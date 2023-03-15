@@ -33,6 +33,7 @@ function App() {
   }
   return (
     <div className="App">
+      <h3>To do list</h3>
       <div className='AppTaskInput'>
         <input placeholder='Enter task' type={Text} id="inputText"></input>
         <button onClick={addTask}>Add task</button>
